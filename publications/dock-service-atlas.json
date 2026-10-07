@@ -1,0 +1,54 @@
+{
+  "cutoff": "2091-03-07T12:00:00Z",
+  "summary": {
+    "active_stations": 4,
+    "operational": 1,
+    "limited": 1,
+    "unavailable": 1,
+    "uninspected": 1,
+    "inspectable_capacity": 50,
+    "usable_docks": 24
+  },
+  "stations": [
+    {
+      "station_id": "ST-01",
+      "name": "Albatross Pier",
+      "zone": "Harbor",
+      "state": "operational",
+      "capacity": 18,
+      "usable_docks": 16,
+      "report_id": "IR-100",
+      "observed_at": "2091-03-07T09:00:00Z"
+    },
+    {
+      "station_id": "ST-02",
+      "name": "Beacon Market Annex",
+      "zone": "Market",
+      "state": "limited",
+      "capacity": 12,
+      "usable_docks": 8,
+      "report_id": "IR-108",
+      "observed_at": "2091-03-07T10:00:00Z"
+    },
+    {
+      "station_id": "ST-04",
+      "name": "Driftwood Park",
+      "zone": "Harbor",
+      "state": "unavailable",
+      "capacity": 20,
+      "usable_docks": 0,
+      "report_id": "IR-102",
+      "observed_at": "2091-03-07T07:30:00Z"
+    },
+    {
+      "station_id": "ST-05",
+      "name": "Elm Depot",
+      "zone": "South",
+      "state": "uninspected",
+      "capacity": 8,
+      "usable_docks": null,
+      "report_id": null,
+      "observed_at": null
+    }
+  ]
+}
